@@ -15,6 +15,7 @@ RUN pip install -r requirements.txt
 
 # Copy source code
 COPY . .
+# Expose to other containers
 EXPOSE 8888
 
 # Run the application
